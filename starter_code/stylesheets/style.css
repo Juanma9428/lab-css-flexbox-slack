@@ -8,3 +8,193 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+    body{
+        margin: 0;
+    }
+
+*{
+    box-sizing: border-box;
+}
+.links-nav{
+    display: none;
+}
+button{
+    cursor: pointer;
+}
+nav {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content:space-between;
+	align-items: center;
+	align-content: stretch;
+    background-color:#540B51;
+}
+nav .img-icon{
+    width:80px;
+    margin: 15px 12px;
+}
+nav button img{
+    width: 20px;
+}
+nav button{
+    background-color: transparent;
+    border: 0px;
+    padding-right: 15px;
+
+}
+header{
+    margin-bottom: -5px;
+}
+
+header .container-header{
+    background-color: #540B51;
+    color: white;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+    align-items: center;
+    padding-bottom: .625rem;
+}
+header h1{
+    font-size: 20px5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+header .orange-span{
+    color: orange;
+}
+header p{
+    font-size: 15px;
+}
+header .google-logo{
+    width: 20px;
+    margin-bottom: 2px;
+    padding: 5px;
+    background-color:white;
+    border-radius: 2px;
+    position: absolute;
+    left: 2%;
+}
+header button{
+    width:250px;
+    display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom:8px;
+    border: 0;
+    border-radius: 2px;
+    font-size: .60rem;
+    height: 28px;
+    text-transform: uppercase;
+
+}
+header .button-blue-header{
+    background-color: #4285F4;   
+    position: relative;
+    text-align: center;
+    
+}
+#image-hero{
+    width: 100%;
+    
+}
+ .first-section{
+    background-color: #F3EAE2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+}
+.first-section p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: bold;
+
+}
+.container{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    padding-bottom: 10px;
+
+}
+
+main img{
+    width: 40px;
+}
+#image-hero img{
+    width: 150%;
+}
+#image-hero{
+    overflow: hidden;
+}
+.container img{
+    flex: 0 1 auto ;
+    width: 50px;
+    height: auto;
+    object-fit: contain;
+    padding: 5px;   
+}
+main section .logo-bottom{
+    width: 110px;
+}
+main section .logo-bottom2{
+    width: 80px;
+}
+.teams{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.teams h3{
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #540B51;
+    margin-bottom: 0px;
+}
+.teams p{
+    text-align: center;
+}
+ul{
+    padding-left: 0px;
+    list-style: none;
+}
+.teams span{
+    font-size: 30px;
+    color: #540B51;
+    font-weight: bold;
+}
+.parraf-secction-team{
+    font-size: 12px;
+    width: 23vh;
+    font-weight: bold;
+}
+.bottom-h3{
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+#section-welcome{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:#540B51;
+}
+
+
+
+
+
+
+
+
