@@ -185,11 +185,80 @@ ul{
     padding-right: 10px;
 }
 #section-welcome{
+    color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     background-color:#540B51;
+    padding-bottom: 20px;
 }
+#section-welcome h3{
+    font-size: 25px;
+}
+#section-welcome button{
+    width: 250px; 
+    display: flex;
+    flex-direction: row;
+	text-align: center;
+	align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom:8px;
+    border: 0;
+    border-radius: 2px;
+    font-size: 8px;
+    height: 28px;
+    text-transform: uppercase;
+
+}
+#section-welcome #button-top{
+    background-color: white;
+    color: #540B51;
+    transition: all 0.2s;
+}
+
+#section-welcome #button-bottom{
+    background-color: #540B51;
+    border: 1px solid white;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+footer .terms{
+    padding-left: 10px;
+}
+footer .terms li{
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+hr{
+    margin-top: 20px;
+    width: 90%;
+}
+footer #blue{
+color: #2E71A6;
+}
+small{
+    display: flex;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
 
 
 
