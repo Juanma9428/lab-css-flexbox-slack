@@ -260,7 +260,10 @@ small{
     font-size: 10px;
     margin-bottom: 20px;
 }
-@media (min-width: 768px){
+
+
+
+@media (min-width: 768px)and (max-width:1024px){
     .container-header-all{
         display: flex;
         flex-direction: row; 
@@ -318,6 +321,86 @@ small{
         font-size: 15px;
         padding: 20px 0px;
     }
+    .teams ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: stretch;
+        align-content: space-between;
+        padding-bottom: 20px;
+
+    }
+    .teams ul p{
+        width: 210px;
+        height: 80px;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 0px;
+    }
+    .teams ul span{
+        font-size: 50px; 
+    }
+    .teams ul .number-span{
+        height: 50px;
+        margin-bottom: 0px;
+    }
+   .teams{
+    align-items: stretch;
+   }
+   .bottom-h3{
+    font-size: 18px;
+   }
+   .teams h3{
+    font-size: 32px;
+   }
+   #section-welcome{
+    padding-bottom: 40px;
+   }
+   #section-welcome h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+   }
+   #section-welcome #button-top{
+        width: 600px;
+        height: 45px;
+        margin-bottom: 15px;
+        font-size: 12px;
+   }
+   #section-welcome #button-bottom{
+    width: 600px;
+    height: 45px;
+    font-size: 12px;
+   }
+   footer{
+
+   }
+   footer .terms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   footer .terms li{
+    font-size: 16px;
+    padding: 10px;
+   }
+   footer hr{
+    margin-top: 40px;
+   }
+   .social-media{
+    justify-content: flex-start;
+   }
+   .social-media li{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 80px;
+   }
+   footer small{
+    margin-left: 20px;
+    font-size: 12px;
+   }
+
+    
     
 
 
